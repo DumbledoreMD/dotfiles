@@ -1,0 +1,32 @@
+Xft.dpi: 192
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintfull
+Xft.hinting: 1
+Xft.antialias: 1
+Xft.rgba: rgb
+
+URxvt.font: xft:FiraMono-Regular:size=15
+
+rofi.modi:                 run,window,ssh
+rofi.opacity:              75
+rofi.width:                30
+rofi.lines:                15
+rofi.columns:              1
+rofi.font:                 Terminus 9
+rofi.fg:                   #839496
+rofi.bg:                   #121212
+rofi.bgalt:                #121212
+rofi.hlfg:                 #5F87AF
+rofi.hlbg:                 #242424
+rofi.bc:                   #5B5B5B
+rofi.terminal:             termite
+rofi.ssh-client:           ssh
+rofi.ssh-command:          {terminal} -e "{ssh-client} {host}"
+rofi.run-command:          {cmd}
+rofi.run-shell-command:    {terminal} -e {cmd}
+rofi.disable-history:      false
+rofi.levenshtein-sort:     false
+rofi.case-sensitive:       false
+rofi.auto-select:          false
+rofi.parse-hosts:          false
