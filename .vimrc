@@ -16,8 +16,6 @@ colorscheme ron
 set textwidth=80
 set wrap
 
-
-
 """"""""""""""""""""""""""""""""""""""""""""
 " Settings for auto-indentation
 """"""""""""""""""""""""""""""""""""""""""""
