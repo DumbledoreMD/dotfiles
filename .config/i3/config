@@ -22,8 +22,7 @@ font pango:monospace 12
 # The combination of xss-lock, nm-applet and pactl is a popular choice, so
 # they are included here as an example. Modify as you see fit.
  
-# Compton / Picom
-exec --no-startup-id picom -b --dbus --experimental-backends
+exec_always --no-startup-id ~/.config/scripts/polybar.sh
 
 # xss-lock grabs a logind suspend inhibit lock and will use i3lock to lock the
 # screen before suspend. Use loginctl lock-session to lock your screen.
@@ -36,6 +35,7 @@ exec --no-startup-id nm-applet
 # Gaps
 gaps inner 10
 gaps outer 5
+gaps top 30
 
 # Additional gap settings
 for_window [class=".*"] border pixel 0
